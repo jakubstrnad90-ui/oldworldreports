@@ -1,6 +1,7 @@
+
 import React from 'react';
 import { ArmyUnit } from '../types';
-import { Modal } from './Modal';
+import { Modal } from './Modal.tsx';
 
 interface UnitStatModalProps {
   unit: ArmyUnit | null;

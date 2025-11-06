@@ -1,6 +1,7 @@
+
 import React, { useState } from 'react';
 import { Army } from '../types';
-import { FileUpload } from './FileUpload';
+import { FileUpload } from './FileUpload.tsx';
 
 interface ArmyManagementModalProps {
   isOpen: boolean;

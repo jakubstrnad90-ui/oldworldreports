@@ -1,6 +1,7 @@
+
 import React, { useState, useRef, useEffect } from 'react';
 import { PlayerState, ArmyUnit, UnitStatus } from '../types';
-import { UnitStatModal } from './UnitStatModal';
+import { UnitStatModal } from './UnitStatModal.tsx';
 
 interface ArmyPanelProps {
   playerState: PlayerState;

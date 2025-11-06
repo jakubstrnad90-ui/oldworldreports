@@ -1,11 +1,11 @@
 
 import React, { useState, useCallback, useEffect } from 'react';
 import { Army, GameState, PlayerState, BattleEvent, GeminiRequestType, GamePhase, UnitStatus, UnitReference } from './types';
-import { ArmyPanel } from './components/ArmyPanel';
-import { GeminiModal } from './components/GeminiModal';
-import { ArmyManagementModal } from './components/ArmyManagementModal';
+import { ArmyPanel } from './components/ArmyPanel.tsx';
+import { GeminiModal } from './components/GeminiModal.tsx';
+import { ArmyManagementModal } from './components/ArmyManagementModal.tsx';
 import * as armyStorage from './services/armyStorage';
-import { FileUpload } from './components/FileUpload';
+import { FileUpload } from './components/FileUpload.tsx';
 
 
 const initialPlayerState: PlayerState = {

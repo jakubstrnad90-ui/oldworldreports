@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { GameState, GeminiRequestType } from '../types';
 import { generateGeminiContent } from '../services/geminiService';
-import { Modal } from './Modal';
+import { Modal } from './Modal.tsx';
 
 interface GeminiModalProps {
   isOpen: boolean;
