@@ -1,0 +1,5 @@
+{
+  "name": "Warhammer: The Old World - Battle Chronicler",
+  "description": "An application to record battles for Warhammer: The Old World, import army lists, and use Gemini AI to provide rule assistance and generate narrative battle reports.",
+  "requestFramePermissions": []
+}
