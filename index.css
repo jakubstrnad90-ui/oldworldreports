@@ -1,0 +1,11 @@
+/*
+  This file contains base styles for the application.
+  TailwindCSS is loaded from a CDN and will handle most styling.
+*/
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.font-medieval {
+  font-family: 'MedievalSharp', cursive;
+}
